@@ -25,11 +25,17 @@ Front-end do projeto Space Time, criado durante o evento da Rocketseat NLW...
 
 ### Dependencies
 
--
+- React
+- TypeScript
+- Next
+- TailwindCSS
+- ESLint
+- PostCSS
+- Autoprefixer
 
 ### DevDependencies
 
--
+- Prettier
 
 
 ## Funcionalidades
