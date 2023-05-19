@@ -4,7 +4,7 @@
 # Space Time 🌌
 
 
-Front-end do projeto Space Time, criado durante o evento da Rocketseat NLW...
+Front-end usando ReactJS, NextJS, TypeScript e mais tecnologias. Criado durante o evento da Rocketseat NLW.
 
 ![Capa](https://i.imgur.com/3nByqxF.png)
 
@@ -15,41 +15,44 @@ Front-end do projeto Space Time, criado durante o evento da Rocketseat NLW...
 - [Funcionalidades 🚀](#funcionalidades)
 - [Screenshots 📷](#screenshots)
 - [Rodando localmente 💻](#rodando-localmente)
-- [Apêndice 📚](#apêndice)
-- [Roadmap 🚗](#roadmap)
+- [Variáveis de ambiente 🔑](#variáveis-de-ambiente)
 - [Figma do Projeto 🎨](#figma-do-projeto)
 - [Licença 📜](#licença)
 
-
 ## Stack utilizada
 
-### Dependencies
+![reactjs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![nextjs](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![typescript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![tailwindcss](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![eslint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
+![jwt](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
+![postcss](https://img.shields.io/badge/postcss-DD3A0A?style=for-the-badge&logo=postcss&logoColor=white)
 
-- React
-- TypeScript
-- Next
-- TailwindCSS
-- ESLint
-- PostCSS
+
+### Outras Libs
+
 - Autoprefixer
-
-### DevDependencies
-
-- Prettier
-
+- Axios
+- Lucide React
 
 ## Funcionalidades
 
 
--
+- Fazer Login usando conta do GitHub (OAuth)
+- Fazer Logout
+- CRUD de memórias
 
 
 ## Screenshots
 
 
-| SignIn      | SignUp     |
+| No Memories      | Memories     |
 | ------------- | ------------- |
-| <img alt="SignIn" src="https://i.imgur.com/LjRWRe5.png"> | <img alt="SignUp" src="https://i.imgur.com/IMahAmI.png"> |
+| <img alt="SignIn" src="https://i.imgur.com/aS61oZp.png"> | <img alt="SignUp" src="https://i.imgur.com/wZt0D47.png"> |
+| Create      | Create (filled)     |
+| <img alt="SignIn" src="https://i.imgur.com/w3YGV5D.png"> | <img alt="SignUp" src="https://i.imgur.com/EY8oiFw.png"> |
 
 
 ## Rodando localmente
@@ -79,23 +82,20 @@ Inicie o servidor
   npm run dev
 ```
 
+## Variáveis de ambiente
 
-## Apêndice
+Para rodar esse projeto, você vai precisar adicionar só uma variável de ambiente, no arquivo .env.local
 
-
--
-
-
-## Roadmap
-
-
-- 
+```env
+  # Github
+  NEXT_PUBLIC_GITHUB_CLIENT_ID=
+```
 
 
 ## Figma do Projeto
 
-
-[Figma](https://www.figma.com/community/file/1240070456276424762)
+- [Figma](https://www.figma.com/community/file/1240070456276424762)
+- ![figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
 ![Cores](https://i.imgur.com/TWetZZx.png)
 
